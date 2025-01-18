@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC5563B2D3B477800451CAC /* snippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5563A2D3B477800451CAC /* snippyApp.swift */; };
+		1CC5563D2D3B477800451CAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5563C2D3B477800451CAC /* ContentView.swift */; };
+		1CC5563F2D3B477900451CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC5563E2D3B477900451CAC /* Assets.xcassets */; };
+		1CC556422D3B477900451CAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC556412D3B477900451CAC /* Preview Assets.xcassets */; };
+		1CC5564D2D3B477A00451CAC /* snippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5564C2D3B477A00451CAC /* snippyTests.swift */; };
+		1CC556572D3B477A00451CAC /* snippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC556562D3B477A00451CAC /* snippyUITests.swift */; };
+		1CC556592D3B477A00451CAC /* snippyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC556582D3B477A00451CAC /* snippyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC556492D3B477A00451CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC5562F2D3B477800451CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC556362D3B477800451CAC;
+			remoteInfo = snippy;
+		};
+		1CC556532D3B477A00451CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC5562F2D3B477800451CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC556362D3B477800451CAC;
+			remoteInfo = snippy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC556372D3B477800451CAC /* snippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC5563A2D3B477800451CAC /* snippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snippyApp.swift; sourceTree = "<group>"; };
+		1CC5563C2D3B477800451CAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CC5563E2D3B477900451CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC556412D3B477900451CAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CC556432D3B477900451CAC /* snippy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = snippy.entitlements; sourceTree = "<group>"; };
+		1CC556482D3B477A00451CAC /* snippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC5564C2D3B477A00451CAC /* snippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snippyTests.swift; sourceTree = "<group>"; };
+		1CC556522D3B477A00451CAC /* snippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC556562D3B477A00451CAC /* snippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snippyUITests.swift; sourceTree = "<group>"; };
+		1CC556582D3B477A00451CAC /* snippyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snippyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC556342D3B477800451CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC556452D3B477A00451CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC5564F2D3B477A00451CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC5562E2D3B477800451CAC = {
+			isa = PBXGroup;
+			children = (
+				1CC556392D3B477800451CAC /* snippy */,
+				1CC5564B2D3B477A00451CAC /* snippyTests */,
+				1CC556552D3B477A00451CAC /* snippyUITests */,
+				1CC556382D3B477800451CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC556382D3B477800451CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC556372D3B477800451CAC /* snippy.app */,
+				1CC556482D3B477A00451CAC /* snippyTests.xctest */,
+				1CC556522D3B477A00451CAC /* snippyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC556392D3B477800451CAC /* snippy */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5563A2D3B477800451CAC /* snippyApp.swift */,
+				1CC5563C2D3B477800451CAC /* ContentView.swift */,
+				1CC5563E2D3B477900451CAC /* Assets.xcassets */,
+				1CC556432D3B477900451CAC /* snippy.entitlements */,
+				1CC556402D3B477900451CAC /* Preview Content */,
+			);
+			path = snippy;
+			sourceTree = "<group>";
+		};
+		1CC556402D3B477900451CAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CC556412D3B477900451CAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CC5564B2D3B477A00451CAC /* snippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5564C2D3B477A00451CAC /* snippyTests.swift */,
+			);
+			path = snippyTests;
+			sourceTree = "<group>";
+		};
+		1CC556552D3B477A00451CAC /* snippyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC556562D3B477A00451CAC /* snippyUITests.swift */,
+				1CC556582D3B477A00451CAC /* snippyUITestsLaunchTests.swift */,
+			);
+			path = snippyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC556362D3B477800451CAC /* snippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC5565C2D3B477A00451CAC /* Build configuration list for PBXNativeTarget "snippy" */;
+			buildPhases = (
+				1CC556332D3B477800451CAC /* Sources */,
+				1CC556342D3B477800451CAC /* Frameworks */,
+				1CC556352D3B477800451CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snippy;
+			productName = snippy;
+			productReference = 1CC556372D3B477800451CAC /* snippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC556472D3B477A00451CAC /* snippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC5565F2D3B477A00451CAC /* Build configuration list for PBXNativeTarget "snippyTests" */;
+			buildPhases = (
+				1CC556442D3B477A00451CAC /* Sources */,
+				1CC556452D3B477A00451CAC /* Frameworks */,
+				1CC556462D3B477A00451CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC5564A2D3B477A00451CAC /* PBXTargetDependency */,
+			);
+			name = snippyTests;
+			productName = snippyTests;
+			productReference = 1CC556482D3B477A00451CAC /* snippyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CC556512D3B477A00451CAC /* snippyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC556622D3B477A00451CAC /* Build configuration list for PBXNativeTarget "snippyUITests" */;
+			buildPhases = (
+				1CC5564E2D3B477A00451CAC /* Sources */,
+				1CC5564F2D3B477A00451CAC /* Frameworks */,
+				1CC556502D3B477A00451CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC556542D3B477A00451CAC /* PBXTargetDependency */,
+			);
+			name = snippyUITests;
+			productName = snippyUITests;
+			productReference = 1CC556522D3B477A00451CAC /* snippyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC5562F2D3B477800451CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1CC556362D3B477800451CAC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1CC556472D3B477A00451CAC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1CC556362D3B477800451CAC;
+					};
+					1CC556512D3B477A00451CAC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1CC556362D3B477800451CAC;
+					};
+				};
+			};
+			buildConfigurationList = 1CC556322D3B477800451CAC /* Build configuration list for PBXProject "snippy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC5562E2D3B477800451CAC;
+			productRefGroup = 1CC556382D3B477800451CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC556362D3B477800451CAC /* snippy */,
+				1CC556472D3B477A00451CAC /* snippyTests */,
+				1CC556512D3B477A00451CAC /* snippyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC556352D3B477800451CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC556422D3B477900451CAC /* Preview Assets.xcassets in Resources */,
+				1CC5563F2D3B477900451CAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC556462D3B477A00451CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC556502D3B477A00451CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC556332D3B477800451CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5563D2D3B477800451CAC /* ContentView.swift in Sources */,
+				1CC5563B2D3B477800451CAC /* snippyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC556442D3B477A00451CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5564D2D3B477A00451CAC /* snippyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC5564E2D3B477A00451CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC556572D3B477A00451CAC /* snippyUITests.swift in Sources */,
+				1CC556592D3B477A00451CAC /* snippyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC5564A2D3B477A00451CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC556362D3B477800451CAC /* snippy */;
+			targetProxy = 1CC556492D3B477A00451CAC /* PBXContainerItemProxy */;
+		};
+		1CC556542D3B477A00451CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC556362D3B477800451CAC /* snippy */;
+			targetProxy = 1CC556532D3B477A00451CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CC5565A2D3B477A00451CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC5565B2D3B477A00451CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1CC5565D2D3B477A00451CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = snippy/snippy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snippy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.snippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1CC5565E2D3B477A00451CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = snippy/snippy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snippy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.snippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1CC556602D3B477A00451CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.snippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snippy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snippy";
+			};
+			name = Debug;
+		};
+		1CC556612D3B477A00451CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.snippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snippy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snippy";
+			};
+			name = Release;
+		};
+		1CC556632D3B477A00451CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.snippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = snippy;
+			};
+			name = Debug;
+		};
+		1CC556642D3B477A00451CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.snippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = snippy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC556322D3B477800451CAC /* Build configuration list for PBXProject "snippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC5565A2D3B477A00451CAC /* Debug */,
+				1CC5565B2D3B477A00451CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC5565C2D3B477A00451CAC /* Build configuration list for PBXNativeTarget "snippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC5565D2D3B477A00451CAC /* Debug */,
+				1CC5565E2D3B477A00451CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC5565F2D3B477A00451CAC /* Build configuration list for PBXNativeTarget "snippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC556602D3B477A00451CAC /* Debug */,
+				1CC556612D3B477A00451CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC556622D3B477A00451CAC /* Build configuration list for PBXNativeTarget "snippyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC556632D3B477A00451CAC /* Debug */,
+				1CC556642D3B477A00451CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC5562F2D3B477800451CAC /* Project object */;
+}
