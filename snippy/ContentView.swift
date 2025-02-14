@@ -1,24 +1,24 @@
+////
+////  ContentView.swift
+////  snippy
+////
+////  Created by Raj Jagirdar on 1/17/25.
+////
 //
-//  ContentView.swift
-//  snippy
+//import SwiftUI
 //
-//  Created by Raj Jagirdar on 1/17/25.
+//struct ContentView: View {
+//    var body: some View {
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundStyle(.tint)
+//            Text("Hello, world!")
+//        }
+//        .padding()
+//    }
+//}
 //
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
